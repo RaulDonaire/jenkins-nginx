@@ -3,12 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "html-react-parser": "^1.2.4",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-jsx-parser": "^1.28.3",
+    "react-normalize": "^0.4.4",
     "react-scripts": "4.0.3",
+    "shelljs": "^0.8.4",
+    "socket.io-client": "^4.0.1",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
@@ -17,6 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3080",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -34,5 +47,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }

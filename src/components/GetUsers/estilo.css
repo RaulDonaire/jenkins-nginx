@@ -1,0 +1,22 @@
+.main-getUser {
+  height: 90vh;
+}
+
+.body-display {
+  height: 93.88%;
+  overflow: hidden;
+}
+
+.cardlist-getUser {
+  width: 100%;
+  max-height: 100%;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-height: min-content;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+

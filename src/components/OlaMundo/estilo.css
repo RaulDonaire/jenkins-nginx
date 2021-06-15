@@ -1,0 +1,168 @@
+.main-getuser{
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.body-display-getuser{
+  background-color: rgb(244,248,251);
+  height: 93.88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.cardlist-getuser {
+  width: 100%;
+  max-height: 100%;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-height: min-content;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+}
+
+.body-display-card-getuser{
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  height: auto;
+  width: 90%;
+}
+
+
+.body-display-header-getuser{
+  background-color: rgb(231, 232, 236);
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.body-display-content-getuser{
+  height: 90%;
+  width: 100%;
+}
+
+.body-display-content-text-getuser{
+  height: 80%;
+  padding: 1.5% 1% 1.5% 1.5%;
+  font-size: 1.2rem;
+}
+
+.body-display-button-getuser{
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 5px;
+  margin-bottom: 1.5%;
+  font-weight: 500;
+  width: 60%;
+  height: 55%;
+}
+
+.body-display-button-form-getuser{
+  border-style: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+  font-weight: 500;
+  width: 60%;
+  height: 30%;
+}
+.form-getuser{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input-getuser{
+  width: 50%;
+  line-height: 10%;
+  padding: .5%;
+  margin: 0 1% .5% 0;
+  font-size: 1.1rem;
+}
+
+.body-display-content-inputlist-getuser{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-display-content-input-getuser{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.response-card-getuser {
+  width: 30%;
+  height: 150px;
+  margin: 1rem 0 0 0;
+}
+
+.response-card-header-getuser {
+  width: 100%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  border-style: ridge;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-bottom: 0;
+}
+
+.response-card-body-getuser {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 3%;
+}
+
+.response-label-getuser {
+  font-size: 1.1rem;
+  padding: 0 0 0 5%;
+}
+
+.response-errormsg-getuser{
+  padding:  0;
+  font-size: 1.2rem;
+}
+
+.response-cardlist-getuser {
+  width: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  min-height: min-content;
+  overflow: auto;
+  flex-wrap: wrap;
+}

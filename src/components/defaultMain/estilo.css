@@ -1,0 +1,13 @@
+.home{
+    height: 100%;
+}
+
+.body-display{
+    background-color: rgb(244,248,251);
+    height: 90%;
+}
+
+.body-display-text{
+    height: 100%;
+    padding-top: 20%;
+}

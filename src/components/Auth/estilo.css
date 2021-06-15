@@ -1,0 +1,58 @@
+.canvas{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.div-figura{
+    width: 71vw;
+    height: 100%;
+}
+
+.figura{
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    width: 29vw;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background-color: rgb(231, 232, 236);
+    color: rgb(29, 45, 71);
+}
+.login-label{
+    align-self: flex-start;
+    padding: 5% 0 0 10%;
+    font-size: 0.9rem;
+}
+
+.login-logo{
+    width: 40%;
+    align-self: center;
+    padding: 12% 0 5% 0;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-input{
+    width: 80%;
+    padding: 0.9%;
+}
+
+.button-login {
+    border-style: none;
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10%;
+    background-color: rgb(29, 45, 71);
+    color: white;
+    width: 50%;
+  }
+  

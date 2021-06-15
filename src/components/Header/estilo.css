@@ -1,0 +1,175 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.logo {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 16.66vw;
+  font-size: 190%;
+  text-align: center;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+.inputPerfil {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 83.33vw;
+  height: 10vh;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1%;
+  width: 27.5%;
+}
+
+.icon {
+  width: 6%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+}
+
+.icon-adjust {
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 1%;
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  background-image: url(../../assets/icons/dY2WMR7-search-icon-light-grey-vector.svg);
+  background-size: 10%;
+  background-position: left;
+  background-color: rgb(243, 243, 243);
+  padding-left: 5%;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-radius: 4px;
+  height: 100%;
+  width: 40%;
+  color: rgb(170, 170, 170);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.9em;
+  color: rgb(105, 111, 123);
+  vertical-align: middle;
+  padding-top: 4px;
+}
+
+.perfildropdown-item-flink,
+.perfildropdown-item-algar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(105, 111, 123);
+}
+
+.perfildropdown-item-darkflink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(10, 10, 10);
+}
+
+.perfildropdown-item-label {
+  font-size: 1rem;
+  text-align: center;
+  width: 60%;
+  margin: 0;
+  color: inherit;
+  height: 30px;
+  font-weight: normal;
+  padding: 3px 0 0 15px;
+}
+
+.perfildropdown-item-icon {
+  width: 10%;
+  height: 10%;
+}
+
+.perfildropdown-item-flink:hover {
+  background-color: rgb(231, 232, 236);
+}
+
+.perfildropdown-item-darkflink:hover {
+  background-color: rgb(231, 232, 236);
+  color: black;
+}
+
+.perfildropdown-item-algar:hover {
+  background-color: rgb(0, 107, 177);
+  color: white;
+}
+
+.theme-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 225px;
+}
+
+.theme-item {
+  width: 45%;
+  margin: 3px 0 3px 0;
+}
+
+.theme-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-width: 1.5px;
+  border-radius: 3px;
+  background-color: rgb(230, 230, 230);
+  border-color: rgb(200, 200, 200);
+  margin: 0;
+}
+
+.theme-card-img {
+  width: 50%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.theme-card-label {
+  width: 50%;
+  align-self: center;
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+
+.theme-card-img-split {
+  width: 45%;
+  border-style: solid;
+  border-width: 0 1.5px 0 0;
+  border-color: rgb(200, 200, 200);
+}

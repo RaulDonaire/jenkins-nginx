@@ -1,0 +1,49 @@
+.home {
+  height: 100%;
+}
+
+.header-display {
+  height: 6.12%;
+  margin: 0;
+}
+
+.header-display-text {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1.5% 1.5% 1.5% 1.5%;
+  height: 100%;
+}
+
+.body-display {
+  font-size: 25px;
+  background-color: rgb(244, 248, 251);
+  height: 93.88%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.theme-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+  height: auto;
+  background-color: white;
+  border-style: ridge;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+.theme-card.img {
+  height: 80%;
+}
+
+.theme-card-label {
+  height: 20%;
+}
